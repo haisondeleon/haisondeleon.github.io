@@ -1,0 +1,413 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" /> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> <script src="http://dynamic.ziftsolutions.com/codebase/bootstrap/responsive-bootstrap.js" type="text/javascript"></script> <span zcondition="zpersonalizer!='true'" zp="true"> <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <script src="//cdnjs.cloudflare.com/ajax/libs/venobox/1.6.0/venobox.min.js"></script> <script zonload="true" zp="true"> $(function () { $('a[data-type]').venobox(); });
+            var a = new Date(),
+                b = a.getFullYear(),
+                c = document.querySelector('.copyright-year');
+            c.innerHTML = b; </script> </span> <span zcondition="zpersonalizer!='true'">
+<link rel="stylesheet" href="//s3.amazonaws.com/static.ziftsolutions.com/files/ff808181592485f4015945febbcd5601/venobox.css" /> </span> <style type="text/css"> .btn { margin:0px !important; } </style>
+<link rel="stylesheet" type="text/css" href="http://dynamic.ziftsolutions.com/codebase/bootstrap/z-bootstrap-grid.css" /> <zstyle> .btnPrimary {
+        color: #fff;
+        font-size:16px;
+    text-decoration:none;
+    border-radius:25px;
+    padding:12px 35px !important;
+    border:1px solid zval(CTA Color);
+    display:inline-block;
+    line-height:150%;
+    vertical-align:middle;
+    }
+
+.btnPrimary,
+    a.btnPrimary:link,
+    a.btnPrimary:active,
+    a.btnPrimary:visited {
+        background-color: zval(CTA Color);
+        color: #fff;
+       }
+    
+    .btnPrimary:hover {
+        background-color: zval(CTA Color);
+        color: #ffffff;
+    } </zstyle> <style type="text/css"> #z_preview_main
+  {
+   width: 100%;
+  }
+  
+  
+  @font-face {
+        font-family: 'adellelight';
+        src: url("https://www.sage.com/na/~/media/responsive/fonts/eot/AdelleSansSAGE-Light.eot");
+        src: url("https://www.sage.com/na/~/media/responsive/fonts/eot/AdelleSansSAGE-Light.eot?#iefix") format('embedded-opentype'), url("https://www.sage.com/na/~/media/responsive/fonts/woff/AdelleSansSAGE-Light.woff") format('woff'), url("https://www.sage.com/na/~/media/responsive/fonts/svg/AdelleSansSAGE-Light.svg#adellelight") format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'adelleregular';
+        src: url("https://www.sage.com/na/~/media/responsive/fonts/eot/AdelleSansSAGE.eot");
+        src: url("https://www.sage.com/na/~/media/responsive/fonts/eot/AdelleSansSAGE.eot?#iefix") format('embedded-opentype'), url("https://www.sage.com/na/~/media/responsive/fonts/woff/AdelleSansSAGE.woff") format('woff'), url("https://www.sage.com/na/~/media/responsive/fonts/svg/AdelleSansSAGE.svg#adelleregular") format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'adellebold';
+        src: url('https://www.sage.com/na/~/media/responsive/fonts/eot/AdelleSansSAGE-Bold.eot');
+        src: url('https://www.sage.com/na/~/media/responsive/fonts/eot/AdelleSansSAGE-Bold.eot?#iefix') format('embedded-opentype'), url('https://www.sage.com/na/~/media/responsive/fonts/woff/AdelleSansSAGE-Bold.woff') format('woff'), url('https://www.sage.com/na/~/media/responsive/fonts/svg/AdelleSansSAGE-Bold.svg#adellebold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    body {
+        color: #000;
+        font-size: 14px;
+        font-family: 'adelleregular', sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+        font-weight: normal;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    a:visited {
+        text-decoration: underline;
+    }
+    
+    #SocialMedia a:hover {
+        text-decoration: none;
+    }
+    
+    #SocialMedia a:visited {
+        text-decoration: none;
+    }
+    
+    /* MAIN STYLES */
+    
+    div {
+        font-family: "adelleregular", sans-serif;
+    }
+    
+    p {
+        font-family: "adelleregular", sans-serif;
+        font-size: 18px;
+        line-height: 1.2;
+        color: #51534A;
+    }
+    
+    h1 {
+        font-family: "adelleregular", sans-serif;
+    }
+    
+    h2 {
+        font-family: "adelleregular", sans-serif;
+        color: #51534A;
+        line-height: 1.2;
+        font-size: 36px;
+        font-weight: normal;
+    }
+    
+    h3 {
+        font-family: "adelleregular", sans-serif;
+        line-height: 1.2;
+        font-size: 36px;
+        font-weight: normal;
+        margin-bottom: 15px;
+        color: #2a3456;
+    }
+    
+    h4 {
+        color: #51534A;
+        margin-bottom: 5px;
+    }
+    /* HEADER HERO - this is where you control the look of the copy in the header  */
+      .z_banner {
+    padding:10px;
+    min-height:350px;
+    }
+   
+    .headerBox {
+        padding: 0px;
+        color: #51534A;
+        font-size: 14px;
+        margin: 20px 0;
+        font-family: "adellelight", sans-serif;
+    }
+    
+    .headerBox h1 {
+        font-size: 50px;
+        line-height: 1.2;
+        color: #fff;
+        margin: 0 10px 15px 0px;
+        padding: 0;
+    }
+    
+    .headerBox h2 {
+        color: #fff;
+        line-height: 1.2;
+        margin: 0 10px 15px 0px;
+        padding: 0;
+    }
+    
+    .headerBox p {
+        margin: 0 10px 15px 0px;
+        padding: 0;
+        font-size: 18px;
+        color: #fff;
+    }
+    /* BUTTON STYLES this is for the magenta button  */
+    
+    .btn {
+        border: 0;
+    border-radius:0 !important;
+        font-size: 16px !important;
+        padding: 10px 12px;
+        text-align: center;
+        white-space: nowrap;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 30px;
+    }
+    
+    
+    #form {
+        margin: 20px 0px 20px 0px;
+        padding: 20px 0;
+        text-align: center;
+        background-color: #ffffff;
+    }
+    
+   /* FOOTER STYLES */
+    
+    .footerInfo {
+        color: #51534A;
+        font-size: 12px;
+    }
+    
+    p.footerInfo {
+        margin: 0;
+        padding: 0;
+        line-height: 1.1;
+        font-size: 12px;
+    }
+    
+    ol.footerInfo {
+        margin-left: 13px;
+    }
+   
+    .footerInfo p {
+        font-size: 12px !important;
+}
+
+@media (max-width: 992px) {
+     .mobileImg {
+       margin-top: 10px;
+       margin-bottom: 20px;
+    }
+} </style> <span zcondition="Banner Font Color=='Black'" zp="true"> <style type="text/css"> .z_banner h1,.z_banner h2 { color:#000000; } </style> </span> <span zcondition="Banner Font Color=='White'" zp="true"> <style type="text/css"> .z_banner h1,.z_banner h2 { color:#ffffff; } </style> </span> <span zcondition="Banner Font Color=='Grey'" zp="true"> <style type="text/css"> .z_banner h1,.z_banner h2 { color:#cccccc; } </style> </span> <span zcondition="zpersonalizer=='true'" zp="true"><style type="text/css">.row { margin-left: 0 !important; margin-right:0 !important; }</style></span>
+<div class="container">
+<div class="row" style="margin-top:20px;margin-bottom:20px;padding:0">
+<div class="col-md-6 hidden-sm hidden-xs">
+<div class="col-md-12" align="left"><a target="_blank" zp="true" href="zval(Partner URL)"><img alt="" src="zval(Partner Logo)" zp="true" width="200" /></a></div>
+</div>
+<div class="col-md-6 hidden-md hidden-lg">
+<div class="col-md-12" align="center"><a target="_blank" zp="true" href="zval(Partner URL)"><img alt="" src="zval(Partner Logo)" zp="true" width="200" /></a></div>
+</div>
+<div class="col-md-6 hidden-sm hidden-xs">
+<div class="col-md-12" align="right"><span zcondition="Partner Level Logos.content=='NULL'" zp="true" name="Partner Level Logos are Null"><img class="mobileImg" src="http://static.ziftsolutions.com/files/ff8081815d58a451015d5c1bdb461f75/sage_reseller-auth.png" style="border:0;display:block;height:auto;max-width:200px;vertical-align:middle;" alt="" width="200" /></span> <span zcondition="Partner Level Logos.content!='NULL'" zp="true" name="Partner Level Logos are not Null"> <zp name="Partner Level Logos.content"> </zp> </span></div>
+</div>
+<div class="col-md-6 hidden-md hidden-lg">
+<div class="col-md-12" align="center"><span zcondition="Partner Level Logos.content=='NULL'" zp="true" name="Partner Level Logos are Null"><img class="mobileImg" src="http://static.ziftsolutions.com/files/ff8081815d58a451015d5c1bdb461f75/sage_reseller-auth.png" style="border:0;display:block;height:auto;max-width:200px;vertical-align:middle;" alt="" width="200" /></span> <span zcondition="Partner Level Logos.content!='NULL'" zp="true" name="Partner Level Logos are not Null"> <zp name="Partner Level Logos.content"> </zp> </span></div>
+</div>
+</div>
+</div>
+<!-- Grey Background Banner -->
+<div class="z_banner" style="background-color:#EEEEED;" zcondition="Banner Background Option=='Grey'" zp="true">
+<div class="container">
+<div class="col-md-12" style="margin-top:20px;margin-bottom:20px;" align="left" zcondition="Banner Text Alignment=='Left'" zp="true">
+<div class="headerBox">
+<h1><zp name="Landing Page Header"></zp></h1>
+<h2><zp name="Landing Page Subheader"></zp></h2>
+<span zcondition="Form Option=='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <a class="btn btnPrimary" href="#form"> <zp name="Banner CTA Text"></zp></a></span> </span> <span zcondition="Form Option!='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <span zcondition="Banner Asset Type=='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" target="_blank"> <zp name="Banner CTA Text"></zp></a></span> <span zcondition="Banner Asset Type!='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" data-type="iframe"> <zp name="Banner CTA Text"></zp></a></span> </span> </span></div>
+</div>
+<div class="col-md-12" style="margin-top:20px;margin-bottom:20px;" align="center" zcondition="Banner Text Alignment=='Center'" zp="true">
+<div class="headerBox">
+<h1><zp name="Landing Page Header"></zp></h1>
+<h2><zp name="Landing Page Subheader"></zp></h2>
+<span zcondition="Form Option=='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <a class="btn btnPrimary" href="#form"> <zp name="Banner CTA Text"></zp></a></span> </span> <span zcondition="Form Option!='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <span zcondition="Banner Asset Type=='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" target="_blank"> <zp name="Banner CTA Text"></zp></a></span> <span zcondition="Banner Asset Type!='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" data-type="iframe"> <zp name="Banner CTA Text"></zp></a></span> </span> </span></div>
+</div>
+<div class="col-md-12" style="margin-top:20px;margin-bottom:20px;" align="right" zcondition="Banner Text Alignment=='Right'" zp="true">
+<div class="headerBox">
+<h1><zp name="Landing Page Header"></zp></h1>
+<h2><zp name="Landing Page Subheader"></zp></h2>
+<span zcondition="Form Option=='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <a class="btn btnPrimary" href="#form"> <zp name="Banner CTA Text"></zp></a></span> </span> <span zcondition="Form Option!='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <span zcondition="Banner Asset Type=='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" target="_blank"> <zp name="Banner CTA Text"></zp></a></span> <span zcondition="Banner Asset Type!='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" data-type="iframe"> <zp name="Banner CTA Text"></zp></a></span> </span> </span></div>
+</div>
+</div>
+</div>
+<!-- Background Image Banner -->
+<div class="z_banner" zstyle="background-image:url('zval(Landing Banner Image)');background-repeat: no-repeat;background-position: center;background-size:cover;" zcondition="Banner Background Option!='Grey'" zp="true">
+<div class="container">
+<div class="col-md-12" style="margin-top:20px;margin-bottom:20px;" align="left" zcondition="Banner Text Alignment=='Left'" zp="true">
+<div class="headerBox">
+<h1><zp name="Landing Page Header"></zp></h1>
+<h2><zp name="Landing Page Subheader"></zp></h2>
+<span zcondition="Form Option=='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <a class="btn btnPrimary" href="#form"> <zp name="Banner CTA Text"></zp></a></span> </span> <span zcondition="Form Option!='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <span zcondition="Banner Asset Type=='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" target="_blank"> <zp name="Banner CTA Text"></zp></a></span> <span zcondition="Banner Asset Type!='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" data-type="iframe"> <zp name="Banner CTA Text"></zp></a></span> </span> </span></div>
+</div>
+<div class="col-md-12" style="margin-top:20px;margin-bottom:20px;" align="center" zcondition="Banner Text Alignment=='Center'" zp="true">
+<div class="headerBox">
+<h1><zp name="Landing Page Header"></zp></h1>
+<h2><zp name="Landing Page Subheader"></zp></h2>
+<span zcondition="Form Option=='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <a class="btn btnPrimary" href="#form"> <zp name="Banner CTA Text"></zp></a></span> </span> <span zcondition="Form Option!='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <span zcondition="Banner Asset Type=='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" target="_blank"> <zp name="Banner CTA Text"></zp></a></span> <span zcondition="Banner Asset Type!='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" data-type="iframe"> <zp name="Banner CTA Text"></zp></a></span> </span> </span></div>
+</div>
+<div class="col-md-12" style="margin-top:20px;margin-bottom:20px;" align="right" zcondition="Banner Text Alignment=='Right'" zp="true">
+<div class="headerBox">
+<h1><zp name="Landing Page Header"></zp></h1>
+<h2><zp name="Landing Page Subheader"></zp></h2>
+<span zcondition="Form Option=='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <a class="btn btnPrimary" href="#form"> <zp name="Banner CTA Text"></zp></a></span> </span> <span zcondition="Form Option!='Show'" zp="true"> <span zcondition="Banner CTA Option=='Show'" zp="true"> <span zcondition="Banner Asset Type=='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" target="_blank"> <zp name="Banner CTA Text"></zp></a></span> <span zcondition="Banner Asset Type!='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Banner CTA URL)" zp="true" data-type="iframe"> <zp name="Banner CTA Text"></zp></a></span> </span> </span></div>
+</div>
+</div>
+</div>
+<div style="padding:10px;">
+<div class="container" style="margin-top:20px;" align="center">
+<div class="col-md-12">
+<h2 zstyle="color: zval(Accent Color);text-align:center" zp="true"><zp name="Landing Page Body Headline"></zp></h2>
+<span style="font-size:18px; color:#51534A;"><zp name="Landing Page Body Copy"></zp></span> <br />
+<br />
+<span zcondition="Form Option=='Show'" zp="true"> <span zcondition="Landing Feature CTA Option=='Show'" zp="true"> <a class="btn btnPrimary" href="#form"> <zp name="Landing Page CTA Button Text"></zp></a> </span> </span> <span zcondition="Form Option!='Show'" zp="true"> <span zcondition="Landing Feature CTA Option=='Show'" zp="true"> <span zcondition="Feature Asset Type=='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Feature Asset URL)" zp="true" target="_blank"> <zp name="Landing Page CTA Button Text"></zp></a> </span> <span zcondition="Feature Asset Type!='URL'" zp="true"> <a class="btn btnPrimary" href="zval(Feature Asset URL)" zp="true" data-type="iframe"> <zp name="Landing Page CTA Button Text"></zp></a> </span> </span> </span></div>
+</div>
+</div>
+<div style="padding:10px;">
+<div class="container" align="center">
+<div class="row" style="text-align:center;">
+<h2 zstyle="color: zval(Accent Color); text-align:center;" zp="true"><zp name="Landing Page Body 2 Headline"></zp></h2>
+</div>
+<div class="row">
+<div class="col-md-12" style="text-align:center;" zp="true"><span style="font-size:18px; color:#51534A;"><zp name="Landing Page Body Copy 2"></zp></span></div>
+</div>
+</div>
+</div>
+<div id="form" zcondition="Form Option=='Show'" zp="true">
+<div class="container">
+<div style="margin-bottom:0;">
+<div class="col-md-12" align="left">
+<div class="row" style="color:#51534A;text-align:center" align="center"><img style="padding-bottom:10px;" src="zval(Form Icon)" zp="true" alt="" />
+<h2 zstyle="color: zval(Primary Color)" zp="true"><zp name="Form Heading Text"></zp></h2>
+<span style="font-size:18px; color:#51534A; line-height:1.2;" align="center"><zp name="Form Text"></zp></span></div>
+<div class="row" style="margin-bottom:0;">
+<div>
+<form id="landing_page_form">
+    <div class="row" style="margin-left:0;margin-right:0;">
+    <div class="col-md-2"><input type="hidden" zf="Subject" zp="true" name="Subject" value="zval(zemail.subject)" /></div>
+    <div class="col-md-4">
+    <div id="formElement0" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+    <div class="field-wrapper">&#160;</div>
+    <div class="individual field-wrapper">
+    <div class="_100 field-style">
+    <p class="field-p"><label for="first_name" class="label-position left " style="width:100%; margin-top:20px;"><span style="font-size:18px; color:#51534A;">First name</span> <span style="color: red !important; display: inline; float: none; font-weight: bold; margin: 0pt 0pt 0pt; padding: 0pt 0pt 0pt">* </span> </label> <br />
+    <input id="first_name" name="first_name" type="text" value="" class="field-size-left-medium" style="width: 100%; height:40px; float:left;" zvars="required:true" zp="true" zf="First Name" maxlength="50" /></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div id="formElement1" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+    <div class="field-wrapper">&#160;</div>
+    <div class="individual field-wrapper">
+    <div class="_100 field-style">
+    <p class="field-p"><label for="last_name" class="label-position left " style="width:100%; margin-top:20px;"><span style="font-size:18px; color:#51534A;">Last name</span> <span style="color: red !important; display: inline; float: none; font-weight: bold; margin: 0pt 0pt 0pt; padding: 0pt 0pt 0pt">* </span> </label> <br />
+    <input id="last_name" name="last_name" type="text" value="" class="field-size-left-medium" style="width: 100%; height:40px;" zvars="required:true" zp="true" zf="Last Name" maxlength="50" /></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-2">&#160;</div>
+    </div>
+    <div class="row" style="margin-top:20px; margin-left:0;margin-right:0;">
+    <div class="col-md-2">&#160;</div>
+    <div class="col-md-4">
+    <div id="formElement3" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+    <div class="field-wrapper">&#160;</div>
+    <div class="individual field-wrapper">
+    <div class="_100 field-style">
+    <p class="field-p"><label for="company" class="label-position left " style="width:100%;"><span style="font-size:18px; color:#51534A; width: 90%;">Company</span> <span style="color: red !important; display: inline; float: none; font-weight: bold; margin: 0pt 0pt 0pt; padding: 0pt 0pt 0pt" class="required">*</span> </label> <br />
+    <input class="company" name="company" type="text" value="" style="width: 100%; height:40px;" zvars="required:true" zp="true" zf="Company" maxlength="50" /></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div id="formElement2" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+    <div class="field-wrapper">&#160;</div>
+    <div class="individual field-wrapper">
+    <div class="_100 field-style">
+    <p class="field-p"><label for="email" class="label-position left " style="width:100%;"><span style="font-size:18px; color:#51534A; width: 90%;">Email address</span> <span style="color: red !important; display: inline; float: none; font-weight: bold; margin: 0pt 0pt 0pt; padding: 0pt 0pt 0pt">* </span> </label> <br />
+    <input id="email" name="email" type="text" value="" class="field-size-left-medium" style="width: 100%; height:40px;" zvars="required:true" zp="true" zf="Email" maxlength="50" /></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-2">&#160;</div>
+    </div>
+    <div class="row" style="margin-top:20px; margin-left:0;margin-right:0;">
+    <div class="col-md-2">&#160;</div>
+    <div class="col-md-4">
+    <div id="formElement3" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+    <div class="field-wrapper">&#160;</div>
+    <div class="individual field-wrapper">
+    <div class="_100 field-style">
+    <p class="field-p"><label for="phone" class="label-position left " style="width:100%;"><span style="font-size:18px; color:#51534A; width: 90%;">Phone</span> </label> <br />
+    <input class="phone" name="phone_number" type="text" value="" style="width: 100%; height:40px;" zp="true" zf="Phone Number" maxlength="50" /></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6">&#160;</div>
+    </div>
+    <div>
+    <div class="col-md-2">&#160;</div>
+    <div class="col-md-8">
+    <p style="font-size:12px;"><span class="required" style="color: red !important; display: inline; float: none; font-weight: bold; margin: 0; padding: 0">*</span> Required field.</p>
+    </div>
+    <div class="col-md-2">&#160;</div>
+    </div>
+    <div>
+    <div class="col-md-12" align="center">
+    <div id="formElement18" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+    <div class="field-wrapper">&#160;</div>
+    <div class="individual field-wrapper">
+    <div class="_100 field-style">
+    <p class="field-p"><a class="btn btnPrimary" zstep="Confirmation" zp="true" href="#"> <span zbutton="Submit" alt="Submit" zp="true">Submit</span> </a></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="padding:10px;">
+<div class="container" style="margin-top: 30px; margin-bottom:50px;">
+<div class="row">
+<div class="col-md-12"><span style="font-size:18px; color:#51534A;"><zp name="Partner Value Proposition"></zp></span> <br />
+<br />
+<span class="footerInfo"><zp name="Disclaimers"></zp></span></div>
+</div>
+</div>
+</div>
+<div style="margin-bottom:30px; border-top: 1px solid #e0e1dd;">
+<div class="container">
+<div class="row" style="padding-top:20px;">
+<div id="SocialMedia" class="col-sm-12" zp="true" zcondition="Show Social Media=='Yes'">
+<div align="center"><span zcondition="Social Media=='Facebook'" zp="true"> <a href="zval(Facebook URL)" zp="true" target="_blank"> <img src="https://static.ziftsolutions.com/files/ff80818159fce80f015a00b18317337d/facebook-24.png" alt="Facebook" width="24" border="0" /> </a> </span> <span zcondition="Social Media=='LinkedIn'" zp="true"> <a href="zval(LinkedIn URL)" zp="true" target="_blank"> <img src="https://static.ziftsolutions.com/files/ff80818159fce80f015a00b1b4393388/in-24.png" alt="LinkedIn" width="24" border="0" /> </a> </span> <span zcondition="Social Media=='Twitter'" zp="true"> <a href="zval(Twitter URL)" zp="true" target="_blank"> <img src="https://static.ziftsolutions.com/files/ff80818159fce80f015a00b3ec2133b0/twitter-24.png" alt="Twitter" width="24" border="0" /> </a> </span> <span zcondition="Social Media=='YouTube'" zp="true"> <a href="zval(YouTube URL)" zp="true" target="_blank"> <img src="https://static.ziftsolutions.com/files/ff80818159fce80f015a00b3293033ad/youtube-24.png" alt="YouTube" width="24" border="0" /> </a> </span> <span zcondition="Social Media=='Pinterest'" zp="true"> <a href="zval(Pinterest URL)" zp="true" target="_blank"> <img src="https://static.ziftsolutions.com/files/ff80818159fce80f015a00b5318d33cb/pinterest-24.png" alt="Pinterest" width="24" border="0" /> </a> </span> <span zcondition="Social Media=='Instagram'" zp="true"> <a href="zval(Instagram URL)" zp="true" target="_blank"> <img src="https://static.ziftsolutions.com/files/ff80818159fce80f015a00b2309f33a4/instagram-24.png" alt="Instagram" width="24" border="0" /> </a> </span> <span zcondition="Social Media=='RSS'" zp="true"> <a href="zval(RSS URL)" zp="true" target="_blank"> <img src="https://static.ziftsolutions.com/files/ff80818159fce80f015a00b2d20133aa/rss-24.png" alt="RSS" width="24" border="0" /> </a> </span></div>
+</div>
+<div class="col-sm-12" align="center">
+<div class="footerInfo" style="font-size: 12px; margin-top: 10px; margin-bottom:10px;"><zp name="Landing Footer Block.Content"></zp></div>
+</div>
+</div>
+</div>
+</div>
